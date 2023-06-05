@@ -1,0 +1,95 @@
+body{
+    background-color: #363636;
+    color: #fff;
+}
+.conteiner-menu{
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.logo1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 200px;
+}
+.logo2{
+    max-width: 50px;
+}
+.row{
+    width: 99.5%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 25px;
+}
+li{
+    display: inline;
+}
+.carousel-inner{
+    padding-bottom: 50px;
+}
+.lancamento{
+    padding-top: 25px;
+}
+.checked{
+    color: yellow;
+}
+.espaco{
+    padding-top: 15px;
+}
+.menu{
+    width: 100%;
+    padding-top: 23px;
+}
+.capa{
+    height: 370px;
+    width: 260px;
+}
+.profile{
+    width: 75px;
+}
+section.entemaking{
+    background-color: lightgray;
+    color: black;
+}
+.menos-espaco{
+    margin-top: -15px;
+}
+.redondo{
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.btn-dark{
+    background-color: #828282;
+}
+p{
+    text-align: justify;
+}
+.blog{
+    padding-top: 15px;
+    width: 220px;
+}
+.redes-sociais{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 175px;
+}
+.footer{
+    margin-left: 0px;
+    width: 100%;
+    background-color: black;
+}
+main{
+    margin-bottom: 20px;
+}

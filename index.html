@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>SuperFlix +</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body onload="carregarFilmes()">
+    <header>
+        <div class="row">
+            <div class="col-12 conteiner-menu">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="index.html"><img src="./img/SFP.png" class="logo1" style="margin-left: 20px;"></a>
+                    </div>
+                    <div class="col-7" style="margin-top: 25px;">
+                        <input class="form-control" type="text" id="pesquisa" placeholder="Pesquisar Filme">
+                    </div>
+                    <div class="col-1" style="margin-top: 25px;">
+                        <button class="btn btn-dark" onclick="pesquisarFilmes()">Pesquisar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main">
+
+        <section class="populares" id="populares">
+            <h1 align="center"><b>Populares</b></h1>
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators" style="margin-top:50px" id="itemsCarousel">
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" id="tela">
+                    
+                  </div>
+
+                </div>
+              </div>
+
+        </section>
+
+    </main>
+    <footer class="row footer" align="center">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <h3>Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b></h3>
+        </div>
+        <div class="col-3" align="left" style="padding-top: 10px; padding-bottom: 5px;">
+            <img src="./img/SFP_logo.png" class="logo2">
+        </div>
+    </footer>
+
+</body>
+
+</html>
